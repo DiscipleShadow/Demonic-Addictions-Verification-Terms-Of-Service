@@ -45,7 +45,7 @@ The Bot is designed to provide secure and automated age verification, birthday a
 ### 4.3 Data Retention and Deletion
 - Users may opt out of all data storage at any time by using the designated Bot command provided during the verification process. When a user opts out:
 - All data associated with that user will be immediately deleted from all systems.
-- The user will no longer be eligible to use verification or birthday-related Bot features.
+- The user will no longer be eligible to us most Bot features unless they opt back in by reverifying.
 
 ---
 

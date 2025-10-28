@@ -19,3 +19,20 @@
     <img src="https://img.shields.io/badge/🔒%20Privacy%20Policy-059669?style=for-the-badge&logo=markdown&logoColor=white" alt="Privacy Policy">
   </a>
 </p>
+
+---
+
+<p align="center">
+  <a href="[https://github.com/DiscipleShadow/Demonic-Addictions-Verification-Terms-Of-Service">
+    <img src="https://img.shields.io/badge/Maintained%20by-DiscipleShadow-7e22ce?style=for-the-badge&logo=github&logoColor=white" alt="Maintained by DiscipleShadow">
+  </a>
+  <a href="https://github.com/DiscipleShadow/Demonic-Addictions-Verification-Terms-Of-Service/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License">
+  </a>
+  <img src="https://img.shields.io/github/last-commit/DiscipleShadow/Demonic-Addictions-Verification?style=for-the-badge&label=Last%20Updated&color=3b82f6" alt="Last Updated Badge">
+</p>
+
+<p align="center">
+  <sub>© 2025 Demonic Addictions Systems. All rights reserved.<br>
+  Built with ❤️ by <a href="https://github.com/DiscipleShadow">DiscipleShadow</a>.</sub>
+</p>

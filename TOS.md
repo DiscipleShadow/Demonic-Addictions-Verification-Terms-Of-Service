@@ -1,126 +1,132 @@
 # Demonic Addictions Verification – Terms of Service
 
-**Last Updated:** October 28, 2025  
-**Developer:** DiscipleShadow  
+**Last Updated:** October 21, 2025  
+**Developer:** [DiscipleShadow](https://discord.com/users/215131967744638976)  
 **Organization:** Demonic Addictions Systems  
 **Governing Law:** United States  
 
 ---
 
 ## 1. Introduction
-Welcome to **Demonic Addictions Verification** (“the Bot”). By using this Bot, you agree to comply with and be bound by these Terms of Service (“Terms”). These Terms govern your use of the Bot across any Discord server (“Server”) in which it is installed.
+Welcome to **Demonic Addictions Verification** (“the Bot”), a Discord verification and moderation system developed by **DiscipleShadow**.  
 
-If you do not agree to these Terms, you must not use the Bot.
-
----
-
-## 2. Purpose
-The Bot is designed to provide secure and automated age verification, birthday announcements, and server management functions within Discord. It serves as a privacy-friendly verification alternative that does not require users to submit government-issued identification.
+By inviting or using the Bot, you (“the User”) agree to these Terms of Service (“Terms”) and to comply with all applicable laws and Discord’s [Terms of Service](https://discord.com/terms).
 
 ---
 
-## 3. Features
-- **Age Verification System:** Assigns roles based on user-submitted age data.  
-- **Birthday Announcements:** Optional automated birthday messages in designated channels.  
-- **Premium Features:** Available through Discord’s built-in monetization system and renewed monthly. Premium unlocks advanced tools such as:  
-  - Server-specific whitelist functionality (bypass verification restrictions).  
-  - Expanded role limits and analytics features.  
-- **Verification Management:**  
-  - Moderators can view verified and unverified users.  
-  - Reports for users unreachable during verification attempts.  
-  - Automated reminders for users who have not completed verification.  
-- **Data Transparency:**  
-  - Users may request to view all data currently stored about them.  
-  - Users may see which servers they are verified in.  
-- **Server Analytics:** Generates summary data (e.g., user verification counts, age maps, and grouping statistics) from encrypted data.  
-- **Encrypted Storage:** All collected data is encrypted (SQLite + monthly rotating keys).  
-- **Advanced User Management:** Blacklist, watchlist, trust scoring, and notification systems.  
-- **Comprehensive Logging:** All verification activities are logged for moderation and audit purposes.  
-- **Developer Communication:** Bot developers may send system or policy update notifications to server owners through built-in commands.  
+## 2. Eligibility and Use
+- You must be at least **13 years old**, or the minimum age required by Discord in your country.  
+- By using the Bot, you affirm that you meet the age requirement and are authorized to manage or participate in the server where the Bot is installed.  
+- The Bot is intended **only for lawful use** and in compliance with Discord’s API Terms.
 
 ---
 
-## 4. Data Collection and Use
-### 4.1 Information Collected
-The Bot may collect and store the following data:
-- Discord User IDs and Server IDs  
-- Server configuration data (roles, channels, and verification settings)  
-- User-submitted age and birthday data (masked and encrypted)  
-- Verification status and trust indicators  
-- Activity logs related to verification and moderation actions  
-- Server-level aggregate analytics (non-identifiable)  
+## 3. Core Functionality
+The Bot provides:
+- Automated **age and verification systems** for Discord servers  
+- **Moderation utilities**, such as verified/unverified lists  
+- **Server analytics** and age mapping tools  
+- **Developer notifications** for policy and feature updates  
+- **Premium features** via Discord subscriptions (for whitelisting, advanced analytics, and other extended tools)
 
-### 4.2 Data Protection
-- All collected information is encrypted and stored securely using industry-standard practices.  
-- Data stored in SQLite is encrypted end-to-end.  
-- Legacy files use encryption keys that rotate monthly.  
-- Access to encrypted data is restricted to authorized Bot developers.  
-
-### 4.3 Data Retention and Deletion
-- Users may **opt out** of all data storage at any time using the Bot’s provided command.  
-- When opting out:
-  - All data associated with that user is immediately deleted across all storage mediums.  
-  - The user will no longer be eligible to use most verification-related features.  
-- Servers may remove stored analytics or configuration data by resetting or removing the Bot.  
+Server administrators are responsible for configuring verification roles and ensuring local compliance with applicable community and privacy rules.
 
 ---
 
-## 5. Subscriptions and Payments
-- Premium access is managed through **Discord’s official monetization and subscription system**.  
-- Subscriptions renew automatically each month unless canceled through Discord’s subscription interface.  
-- No payment information is handled directly by the Bot or its developers.  
-- Refunds and billing concerns are subject to Discord’s own monetization and refund policies.  
+## 4. Premium Features and Subscriptions
+### 4.1 Payment and Renewal
+- Premium access is managed through **Discord’s built-in monetization system**.  
+- All transactions and renewals occur **solely through Discord**.  
+- The Bot **does not** process or store any payment data.  
+
+### 4.2 Subscription Tiers
+Premium subscriptions grant additional functionality, which may include:
+- Expanded role or whitelist limits  
+- Enhanced analytics and moderation commands  
+- Priority support and early feature access  
+
+### 4.3 Cancellations and Refunds
+- Subscriptions can be canceled at any time via Discord’s **User Settings → Subscriptions** menu.  
+- Refunds and billing issues are handled directly by **Discord Support**.  
 
 ---
 
-## 6. Acceptable Use
-By using the Bot, you agree to:
-- Use it only for lawful purposes and in compliance with Discord’s Terms of Service and Community Guidelines.  
-- Not exploit, misuse, or manipulate the Bot or its data.  
-- Not use the Bot to harass, impersonate, or harm others.  
-- Ensure that use of analytics and verification data complies with applicable data privacy laws and Discord policies.  
-
-### Misuse of the Bot
-Misuse of the Bot or the data it provides—including unauthorized access, sharing, or data manipulation—may result in legal action taken by the Bot developers and/or affected users.
+## 5. Whitelist and Verification Systems
+- Servers may use a **whitelist system** to exempt specific users from age or verification checks.  
+- Whitelists are **server-specific** and maintained locally by that server’s configuration.  
+- Abuse of whitelisting (e.g., to bypass Discord’s ToS or community safety rules) may result in suspension or blacklist actions by the Bot.
 
 ---
 
-## 7. Liability
-- The developer and organization are **not responsible** for misuse of the Bot or any actions taken by individual Discord servers.  
-- Server owners are solely responsible for ensuring compliance with applicable laws and Discord’s platform policies.  
-- While every effort is made to maintain secure data handling, **no system is completely immune** to security risks.  
-- The Bot’s developer and organization are not liable for damages resulting from unforeseen breaches, service downtime, or misuse by third parties.  
+## 6. Data Collection and Privacy
+The Bot collects limited information necessary for its features, including:
+- Discord IDs (user, server)  
+- Verification states and trust data  
+- Configuration and analytics data  
+- Subscription flags and premium status  
+
+For full details on what is stored, how it’s encrypted, and your rights to view or delete your data, see the  
+➡️ [Privacy Policy](https://github.com/DiscipleShadow/Demonic-Addictions-Verification-Terms-Of-Service/blob/main/PrivacyPolicy.md).
 
 ---
 
-## 8. Hosting and Availability
-- The Bot is currently hosted on **hidencloud.com**. Future versions may be **self-hosted** to further improve data control and security.  
-- Hosting providers may change without notice.  
-- Service uptime and feature availability are not guaranteed.  
-- The Bot may occasionally enter maintenance or restricted operation for updates or compliance changes.  
+## 7. Data Transparency and Opt-Out
+Users can:
+- View the data currently stored about them through the `/mydata` or equivalent command.  
+- Request deletion of their data at any time.  
+- Opt out of all data collection, which will disable verification and related features.  
+
+Developers will **never** disclose user data to third parties.
 
 ---
 
-## 9. Termination
+## 8. Server Responsibilities
+Server owners and administrators agree to:
+- Use the Bot in accordance with Discord’s rules and community guidelines.  
+- Not misuse the Bot to collect personal information or harass users.  
+- Properly configure roles, channels, and permissions to ensure safe operation.  
+- Notify members about verification and data-collection practices, where applicable.  
+
+---
+
+## 9. Developer Rights
 The developer reserves the right to:
-- Restrict, suspend, or terminate access to the Bot for any user or server that violates these Terms.  
-- Modify, disable, or discontinue specific features at any time for maintenance, security, or compliance reasons.  
-- Remove or restrict access for users or servers found engaging in malicious behavior or misuse.  
+- Modify or discontinue the Bot or specific features without prior notice.  
+- Temporarily or permanently suspend access for servers or users who violate these Terms or abuse the system.  
+- Send notifications to server owners via Bot messages regarding policy updates or maintenance.  
 
 ---
 
-## 10. Policy Updates and Notifications
+## 10. Limitation of Liability
+- The Bot and its services are provided **“as is”** with no warranty of any kind.  
+- The developer is **not responsible** for damages, losses, or issues arising from use of the Bot or Discord’s platform.  
+- Users are responsible for ensuring compliance with all Discord rules and applicable local regulations.  
+
+---
+
+## 11. Termination of Access
+Access may be revoked if:
+- The Bot is removed from a server  
+- A violation of these Terms or Discord’s ToS occurs  
+- The developer discontinues the project  
+
+Data associated with terminated access may be **deleted or anonymized** per the Privacy Policy.
+
+---
+
+## 12. Policy Updates
 - These Terms may be updated periodically.  
-- **Server owners will be notified directly by the Bot** through the developer notification system when significant policy changes occur.  
-- Continued use of the Bot after updates constitutes acceptance of the revised Terms.  
+- Major updates will be communicated to server owners via the Bot’s **developer notification system**.  
+- Continued use of the Bot after changes indicates acceptance of the updated Terms.  
 
 ---
 
-## 11. Contact
-For questions, concerns, or legal inquiries:
-- **Discord:** @DiscipleShadow  
-- **Email:** shadow344384@gmail.com (not monitored regularly)  
+## 13. Contact
+For questions, policy requests, or support:
+- **Discord:** [@DiscipleShadow](https://discord.com/users/215131967744638976)  
+- **Email:** shadow344384@gmail.com *(not monitored regularly)*  
 
 ---
 
-© 2025 Demonic Addictions Systems. All rights reserved.
+© 2025 **Demonic Addictions Systems**. All rights reserved.  
+Linked Policies: [Privacy Policy](https://github.com/DiscipleShadow/Demonic-Addictions-Verification-Terms-Of-Service/blob/main/privacy.md)

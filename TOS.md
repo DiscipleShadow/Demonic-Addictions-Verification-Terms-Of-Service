@@ -66,7 +66,7 @@ The Bot collects limited information necessary for its features, including:
 - Subscription flags and premium status  
 
 For full details on what is stored, how it’s encrypted, and your rights to view or delete your data, see the  
-➡️ [Privacy Policy](https://github.com/DiscipleShadow/Demonic-Addictions-Verification-Terms-Of-Service/blob/main/PrivacyPolicy.md).
+➡️ [Privacy Policy](https://github.com/DiscipleShadow/Demonic-Addictions-Verification-Terms-Of-Service/blob/main/privacy.md).
 
 ---
 

@@ -40,17 +40,48 @@ The Bot collects limited information necessary to perform its verification, logg
 ---
 
 ## 3. Purpose of Data
-Collected data is used for:
+### 3.1 Collected data is used for
 - **Verification Management:** Assigning roles based on user age or verification input.  
 - **Birthday Announcements:** Optional automated birthday messages.  
 - **Security and Moderation:** Maintaining watchlists, trust scores, and lists of unverified users for moderators.  
 - **Premium Access Validation:** Checking subscription status via Discord APIs.  
 - **Server Analytics:** Generating aggregate (non-identifiable) statistics such as age maps or verification rates.  
 - **Developer Communication:** Sending system or policy update notices to server owners.  
-- **User Transparency:** Allowing users to view stored data and opt out at any time.  
+- **User Transparency:** Allowing users to view stored data and opt out at any time.
 
 The Bot **never sells, rents, or shares** user data under any circumstance.
 
+### 3.2 Developer Access to Servers Using the Bot
+The Bot includes functionality that allows authorized Bot Developers to view a list of servers using the Bot and generate temporary invite links.
+**This access is used strictly for:**
+- Investigating potential misuse of the Bot.
+- Providing direct support to server administrators.
+- Ensuring compliance with the Bot’s Terms of Service.
+
+Developers do not access server messages or user content beyond what the Bot itself collects as described in this Privacy Policy. All developer access is logged and restricted to authorized personnel only.
+
+### 3.3 Behavior Monitoring & Safety Signal Tracking
+The Bot includes a behavior monitoring system designed to identify potential misrepresentation of age and to improve verification accuracy.
+**The system monitors:**
+- Entry into NSFW-designated channels
+- Newly created Discord accounts
+- Usernames containing numeric age indicators
+- Keywords commonly associated with age misrepresentation
+- Eandomized honeypot question triggers (~5% probability)
+
+These checks contribute to an internal scoring system used solely to support moderation teams. The Bot does not make automated moderation decisions; instead, server moderators receive warnings if concerning patterns are detected. The Scoring **may** be shared with additional servers appon joining if your score is considered in the red. 
+
+### 3.4 Honeypot Question Logging
+When a honeypot question fails, the Bot logs:
+- The user’s Discord username and ID
+- The question asked
+- The user’s response
+- The expected response based on the user’s prior verification data
+
+### 3.5 Verification Reminder Tracking
+The Bot tracks whether a user has completed verification in a server. If a user remains unverified, the Bot records reminder status and timing until either:
+- The user completes verification, or
+- The user leaves the server
 ---
 
 ## 4. Data Security and Encryption
@@ -58,7 +89,7 @@ The Bot **never sells, rents, or shares** user data under any circumstance.
 - SQLite databases are fully encrypted.  
 - Legacy encrypted backups use **monthly rotating encryption keys**.  
 - Only the developer and authorized system processes have access to encrypted data.  
-- Moderator-visible information (e.g., verification status) is limited to data relevant to their server.  
+- Moderator-visible information (e.g., verification status) is limited to data relevant to their server.
 
 ---
 

@@ -28,6 +28,8 @@ The Bot provides:
 - **Server analytics** and age mapping tools  
 - **Developer notifications** for policy and feature updates  
 - **Premium features** via Discord subscriptions (for whitelisting, advanced analytics, and other extended tools)
+- **Automated system** designed to detect patterns that may indicate misrepresentation during the verification process
+- **Auotmated verification reminder** 
 
 Server administrators are responsible for configuring verification roles and ensuring local compliance with applicable community and privacy rules.
 
@@ -90,11 +92,16 @@ Server owners and administrators agree to:
 ---
 
 ## 9. Developer Rights
-The developer reserves the right to:
+### 9.1 The developer reserves the right to:
 - Modify or discontinue the Bot or specific features without prior notice.  
 - Temporarily or permanently suspend access for servers or users who violate these Terms or abuse the system.  
-- Send notifications to server owners via Bot messages regarding policy updates or maintenance.  
+- Send notifications to server owners via Bot messages regarding policy updates or maintenance.
 
+### 9.2 Developer Server Access
+By using the Bot, server administrators acknowledge that authorized Bot Developers may generate temporary invite links to servers using the Bot. This access is used exclusively for:
+- Investigating reported misuse of the Bot
+- Assisting server staff with bot errors
+- Ensuring compliance with these Terms
 ---
 
 ## 10. Limitation of Liability
